@@ -1,0 +1,15 @@
+<!--pages/map/map.wxml-->
+<view class='map1'>
+
+<map id="myMap" show-location="{{map.showLocation}}" latitude="{{map.latitude}}" longitude='{{map.longitude}}' markers="{{map.markers}}" controls='{{map.controls}}'/>
+<view class="view-map">
+  <p>
+  [位置]
+  </p>
+  <text>
+     河南许昌学院
+  </text>
+</view>
+</view>
+
+

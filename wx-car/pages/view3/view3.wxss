@@ -1,0 +1,40 @@
+/* pages/view3/view3.wxss */
+.view3 image{
+  width:750rpx;
+}
+.view3 .form{
+  text-align: center;
+  opacity: 30;
+  padding-top: 100rpx;
+}
+.view3 .form .input{
+  text-align: left;
+  color:#777;
+  font:15px 楷体;
+  margin:0 auto;
+  border: 1px solid #000;
+  height: 30px;
+  width: 200px;
+  background-color: #bbb;
+  margin-bottom: 20px;
+}
+.view3 .form button{
+  height: 25px;
+  width: 100px;
+  background-color: black;
+  font-size: 13px;
+  line-height: 25px;
+  border-radius: 0px;
+}
+.view3 .footer{
+  position: absolute;
+  bottom: -50px;
+  padding-top: 12px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: gray;
+  font: 16px 宋体;
+  color: #aaa;
+}

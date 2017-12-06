@@ -1,0 +1,13 @@
+<!--pages/view3/view3.wxml-->
+
+<view class='view3'>
+<image src='/static/images/view7.jpg'></image>
+<view class='form'>
+  <input type='text' class="input" value="姓名:"></input>
+  <input type="text" class='input' value="电话:"></input>
+  <button type='primary'>提交预约</button>
+</view>
+<view class='footer'>
+    <span>该小程序由liyuit提供技术支持</span>
+  </view>
+</view>

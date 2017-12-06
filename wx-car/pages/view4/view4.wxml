@@ -1,0 +1,17 @@
+<!--pages/view4/view4.wxml-->
+<view class='view4'>
+  <image src='/static/images/xy.jpg' ></image>
+  <view class='info'>
+      <span>
+          河南许昌许昌学院欢迎您...
+      </span>
+      <image src='/static/images/map.png' mode="aspectFit" class='map' bindtap="mapMove"></image>
+      <span>
+          体验中心电话：13271230595
+      </span>
+      <image src='/static/images/phone1.png' class='phone' mode="aspectFit" bindtap="calling"></image>
+  </view>
+  <view class='footer'>
+    <span>该小程序由liyuit提供技术支持</span>
+  </view>
+</view>

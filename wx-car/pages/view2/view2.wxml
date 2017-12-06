@@ -1,0 +1,10 @@
+<!--pages/view2/view2.wxml-->
+<view class='view2'>
+<view id="{{i._id}}" class='view2-for' wx:key="{{productInfo.index}}" wx:for="{{productInfo}}" wx:for-item="i" bindtap="infomation">
+  <text class='view2-text'>{{i.name}}</text><span>|</span>
+  <image  data-hi="WeChat" class='view2-image' src="{{i.image}}" ></image>
+</view>
+<view class='footer'>
+    <span>该小程序由liyuit提供技术支持</span>
+</view>
+</view>

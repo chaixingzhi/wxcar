@@ -1,0 +1,16 @@
+/* pages/view2-info/view2-info.wxss */
+.view2-info text{
+  display: block;
+  width: 750rpx;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  text-align: left;
+}
+.view2-info swiper{
+  background-color: #ddd;
+  height:480rpx;
+}
+.view2-info .slide-image{
+  width: 750rpx;
+}

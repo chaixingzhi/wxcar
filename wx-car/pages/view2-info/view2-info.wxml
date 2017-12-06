@@ -1,0 +1,19 @@
+<view class='view2-info' >
+    <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <view class="view-image"wx:key="{{imagUrls.i}}"
+        wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image"/>
+          </swiper-item>
+        </view>
+    </swiper>
+    <text>型号：{{infomation.description}}</text>
+    <text>功率：{{infomation.detail.power}}\t\tKW/h</text>
+    <text>加速度：{{infomation.detail.zeroTo100}}\t\tKM/h</text>
+    <text>最高时速：{{infomation.detail.topSpeed}}\t\tKM/h</text>
+    <text>耗油量：{{infomation.detail.oilWear}}\t\tL/100km</text>
+    <text>价格：{{infomation.price}}\t\t￥</text>
+    <text>库存：{{infomation.storage}}</text>
+    <text>宣言：{{infomation.info}}</text>
+</view>

@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="container" bindtar>
+  <image src="/static/images/004.jpg"></image>
+  <view class='container-view'>
+    <text class='view-text1'>718 Cayman</text>
+    <text class='view-text2'>以运动之名</text>
+    <view class="view-view"></view>
+    <button class='view-button' type='default' bindtap='bindtar'>预约试驾</button>
+  </view>
+  <image src='/static/images/005.jpg'></image>
+  <view class='container-view'>
+    <text class='view-text1'>718 Cayman</text>
+    <text class='view-text2'>以运动之名</text>
+    <view class="view-view"></view>
+    <button class='view-button' type='default' bindtap='bindtar'>预约试驾</button>
+  </view>
+  <image src='/static/images/006.jpg'></image>
+  <view class='container-view'>
+    <text class='view-text1'>718 dfgsdfgsg Cayman</text>
+    <text class='view-text2'>以运动之名</text>
+    <view class="view-view"></view>
+    <button class='view-button' type='default' bindtap='bindtar'>预约试驾</button>
+  </view>
+  <image src='/static/images/007.jpg'></image>
+  <view class='container-view'>
+    <text class='view-text1'>718 Cayman</text>
+    <text class='view-text2'>以运动之名</text>
+    <view class="view-view"></view>
+    <button class='view-button' type='default' bindtap='bindtar'>预约试驾</button>
+  </view>
+  <view class='footer'>
+    <span>该小程序由liyuit提供技术支持</span>
+  </view>
+</view>
